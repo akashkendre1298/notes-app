@@ -47,7 +47,7 @@ const Notes = () => {
     const [notes, setNotes] = useState([]);
     const [activeNoteId, setActiveNoteId] = useState(null);
     const [search, setSearch] = useState('');
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true); 
     const [tagFilter, setTagFilter] = useState('all');
     const [pendingContent, setPendingContent] = useState('');
     const [pendingTitle, setPendingTitle] = useState('');
